@@ -1,5 +1,5 @@
 {
-    "name": "gleb/lara-packages",
+    "name": "sart33/lara-packages",
     "type": "library",
     "require": {
         "php": "^7.4",
