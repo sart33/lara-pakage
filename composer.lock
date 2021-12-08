@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40cb82297586f59b65b255d6dcb1dcdf",
+    "content-hash": "74f2849ce31e9229261495d7af206fd2",
     "packages": [
         {
             "name": "evilfreelancer/resova-api-php",
@@ -6831,7 +6831,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4"
+        "php": "^7.2|^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
