@@ -1,0 +1,39 @@
+{
+    "name": "gleb/lara-packages",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "evilfreelancer/resova-api-php": "^1.2"
+    },
+    "require-dev": {
+        "orchestra/testbench":"^5.0"
+
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ResovaApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ResovaApi\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gleb Ivanchik",
+            "email": "alphakenshin9@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ResovaApi\\ResovaApiServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "ResovaApi\\ResovaApiFacade"
+            }
+        }
+    }
+}
