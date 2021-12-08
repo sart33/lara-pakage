@@ -2,7 +2,7 @@
     "name": "sart33/lara-packages",
     "type": "library",
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^7.1||^8.0",
         "evilfreelancer/resova-api-php": "^1.2"
     },
     "require-dev": {
